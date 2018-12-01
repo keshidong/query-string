@@ -1,0 +1,19 @@
+{
+  "name": "query-string",
+  "version": "1.0.0",
+  "description": "query string parse",
+  "main": "index.js",
+  "repository": "git@github.com:keshidong/query-string.git",
+  "author": "keshidong.dev@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "*",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  }
+}
