@@ -29,23 +29,6 @@ const parse = search => {
     * @params search
     * @return object
     */
-
-    /* 测试用例
-    * '?=' return {}
-    * '? =' return {' ': ''}
-    * '?===' return {}
-    * '?a' return {a: null}
-    * '?a=' return {a: ''}
-    * '?a=1' return {a: '1'}
-    * '?a =1' return {a: '1'}
-    * '?a=1&' return {a: '1'}
-    * '?a=1&b' return {a: '1', b: null}
-    * '?a=1&b=' return {a: '1', b: ''}
-    * '?a=1&b=2' return {a: '1', b: '2'}
-    * '?a=1&b=====' return {a: '1', b: '===='}
-    * '?a=1&a=2' return {a: ['1', '2']}
-    * '?a=1&a=2&a' return {a: ['1', '2', null]}
-    */
     if (typeof search !== 'string') {
         return Object.create(null)
     }
