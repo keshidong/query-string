@@ -1,4 +1,4 @@
-import { queryStringParse } from "../index";
+import { queryStringParse } from "../dist/index";
 
 /* 测试用例
   * '?=' return {}
