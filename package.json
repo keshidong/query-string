@@ -1,12 +1,23 @@
 {
-  "name": "query-string",
-  "version": "1.0.0",
-  "description": "query string parse",
-  "main": "index.js",
+  "name": "query-string-sp",
+  "version": "1.0.0-rc.1",
+  "description": "parse and stringify query string",
+  "keywords": [
+    "query string",
+    "query string parse",
+    "query string stringify",
+    "search parse",
+    "hash parse",
+    "url parse"
+  ],
+  "main": "dist/index.js",
+  "homepage": "https://github.com/keshidong/query-string",
+  "bugs": "https://github.com/keshidong/query-string/issues",
   "repository": "git@github.com:keshidong/query-string.git",
   "author": "keshidong.dev@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "*",
     "babel-core": "^7.0.0-bridge.0",
@@ -14,6 +25,10 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "bulid": "babel index.js -d dist"
+  },
+  "dependencies": {
+    "query-string-ps": "^1.0.0-rc.1"
   }
 }
