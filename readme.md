@@ -1,5 +1,7 @@
 # query string parse
 
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/react.svg)](https://github.com/keshidong/query-string/blob/master/dist/index.js)
+
 Support for parsing and stringify `location.search`  and `location.hash`
 
 ## Supported query string parsing
