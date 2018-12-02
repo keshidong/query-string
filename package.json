@@ -1,6 +1,6 @@
 {
   "name": "query-string-sp",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "parse and stringify query string",
   "keywords": [
     "query string",

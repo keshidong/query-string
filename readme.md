@@ -1,6 +1,9 @@
 # query string parse
 
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/react.svg)](https://github.com/keshidong/query-string/blob/master/dist/index.js)
+# [query-string-sp](https://github.com/keshidong/query-string) &middot; [![GitHub license]
+(https://img.shields.io/badge/license-MIT-blue.svg)]
+[![GitHub issues](https://img.shields.io/github/issues/keshidong/query-string.svg)](https://github.com/keshidong/query-string/issues)
+
 
 Support for parsing and stringify `location.search`  and `location.hash`
 
