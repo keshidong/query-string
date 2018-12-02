@@ -22,13 +22,11 @@
     "@babel/preset-env": "*",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
+    "babel-preset-minify": "^0.5.0",
     "jest": "^23.6.0"
   },
   "scripts": {
     "test": "jest --coverage",
-    "bulid": "babel index.js -d dist"
-  },
-  "dependencies": {
-    "query-string-ps": "^1.0.0-rc.1"
+    "build": "BABEL_ENV=production babel index.js -d dist"
   }
 }
