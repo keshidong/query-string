@@ -1,7 +1,6 @@
 # query string parse
 
-# [query-string-sp](https://github.com/keshidong/query-string) &middot; [![GitHub license]
-(https://img.shields.io/badge/license-MIT-blue.svg)]
+# [query-string-sp](https://github.com/keshidong/query-string) &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![GitHub issues](https://img.shields.io/github/issues/keshidong/query-string.svg)](https://github.com/keshidong/query-string/issues)
 
 
