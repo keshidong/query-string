@@ -23,10 +23,14 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-preset-minify": "^0.5.0",
+    "coveralls": "^3.0.2",
     "jest": "^23.6.0"
   },
   "scripts": {
     "test": "jest --coverage",
-    "build": "BABEL_ENV=production babel index.js -d dist"
+    "build": "BABEL_ENV=production babel index.js -d dist",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+  },
+  "dependencies": {
   }
 }
