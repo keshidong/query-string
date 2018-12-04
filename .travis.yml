@@ -10,4 +10,5 @@ jobs:
   include:
   - stage: Produce Coverage
     node_js: node
+    install: yarn
     script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
