@@ -2,6 +2,8 @@
 
 # [query-string-sp](https://github.com/keshidong/query-string) &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![GitHub issues](https://img.shields.io/github/issues/keshidong/query-string.svg)](https://github.com/keshidong/query-string/issues)
+[![build status](https://img.shields.io/travis/keshidong/query-string/master.svg?style=flat-square]https://travis-ci.org/keshidong/query-string)
+[![Coverage Status](https://coveralls.io/repos/github/keshidong/query-string/badge.svg?branch=master)](https://coveralls.io/github/keshidong/query-string?branch=master)
 
 
 Support for parsing and stringify `location.search`  and `location.hash`
